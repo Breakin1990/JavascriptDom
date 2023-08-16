@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    color: aliceblue;
+    background-color: rgba(44, 42, 42, 0.733);
+}
+
+h1 {
+    text-align: center;
+}
+
+#search-form {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    min-height: 200px;
+    border: 3px solid #8d8383;
+    border-radius: 5PX;
+    padding: 50px;
+}
+
+#result-container .pizza-card {
+    border: 2px solid #8d8383;
+    background-color: rgba(61, 56, 56, 0.733);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#result-container .pizza-card img {
+    max-width: 150px;
+    margin-right: 10px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
